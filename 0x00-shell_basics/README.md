@@ -11,3 +11,10 @@ l-listit displays contents list of current directory
 10-back use cd - to go to previous directory
 11-lists show lists from current directory parent directory and /boot
 12-file_type command to show file type of iamafile
+13-symbolic_link 
+14- copying html tag
+15- moving files beginning with upercase letter to /tmp/u
+16- deleting files in working directory ending with ~
+17 - creating welcome/to/school script
+18- list of files separated by commas
+19 - magic fileto detect School data files
