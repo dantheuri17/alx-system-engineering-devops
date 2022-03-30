@@ -1,5 +1,6 @@
 0-current_working_directory prints its files absolute path
 l-listit displays contents list of current directory
-
+2-bring_me_home script to change to home directory
 3-listfiles displays contents lists in long format
 4-listmorefiles displays files in long format including hidden ones starting with .
+5-listfilesdigitonly display files with user and group IDs displayed numerically using ls -n
