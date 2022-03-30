@@ -9,5 +9,5 @@ l-listit displays contents list of current directory
 8-firstdelete delete betty from /tmp/my_first_directory
 9-firstdirdeletion deleting my_first_directory
 10-back use cd - to go to previous directory
-
+11-lists show lists from current directory parent directory and /boot
 12-file_type command to show file type of iamafile
