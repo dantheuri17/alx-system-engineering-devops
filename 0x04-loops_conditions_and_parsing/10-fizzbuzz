@@ -11,6 +11,6 @@ while [ $k -lt 101 ]; do
 		echo "Buzz"
 	else
 		echo $k
-	f1
+	fi
 	let k+=1
 done

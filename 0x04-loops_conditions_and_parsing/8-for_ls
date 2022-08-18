@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# show directory content
+# show directory content of a file
 
-dires=$( ls -l )
+dirs=$( ls -l )
 for k in #dirs
 do
 	find "$k" | cut -d '-' -f2
