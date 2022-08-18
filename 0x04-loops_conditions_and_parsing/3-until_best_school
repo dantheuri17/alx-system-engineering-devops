@@ -1,5 +1,5 @@
-#!/usr/bin/bash
-#print "Best School" 10 times using until
+#!/usr/bin/env bash
+# print "Best School" 10 times using until
 
 k="0"
 until [ $k -ge 10 ]
