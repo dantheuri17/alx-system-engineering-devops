@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
-# check if file exists and the file type 
+# check if school file exists, empty, file type
 
 file="school"
 if [ -e $file ]
-then 
+then
 	echo "school file exists"
 	if [ -s $file ]
-	then 
+	then
 		echo "school file is not empty"
-	else 
+	else
 		echo "school file is empty"
-	fi 
+	fi
 	if [ -f $file ]
-	then 
+	then
 		echo "school file is a regular file"
-	fi 
+	fi
 else
 	echo "school file does not exist"
 fi
