@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-
-# display "Best School" 10 times 
+# display "Best School" 10 times using the while loop 
 
 k="0"
 
