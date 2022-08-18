@@ -2,4 +2,4 @@
 # read Apache log file 
 
 awk '{ print $1 } ' apache-access.log | sort | uniq | wc -l
-#awk '{print $1, $9}' apache-access.log | sort | uniq -c | sort -nr
+awk '{print $1, $9}' apache-access.log | sort | uniq -c | sort -nr
