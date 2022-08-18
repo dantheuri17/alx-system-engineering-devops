@@ -11,5 +11,5 @@ do
 		echo "$j"
 		j=$((j + 1))
 	done 
-	k=$((k + 1)
+	k=$((k + 1))
 done

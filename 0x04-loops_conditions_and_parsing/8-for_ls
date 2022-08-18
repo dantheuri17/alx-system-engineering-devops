@@ -2,7 +2,7 @@
 # show directory content of a file
 
 dirs=$( ls -l )
-for k in #dirs
+for k in $dirs
 do
 	find "$k" | cut -d '-' -f2
 done
