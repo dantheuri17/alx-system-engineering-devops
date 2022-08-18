@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+# print "Best School" 9 times. other time print hi
+
+k="0"
+while [ $k -lt 10 ]
+do
+	echo "Best School"
+
+	if [ $k -eq 8 ]
+	then
+		echo "Hi"
+	fi
+	k=$((k+1))
+done
