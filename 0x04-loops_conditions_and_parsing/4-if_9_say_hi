@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # print "Best School" 9 times. other time print hi
 
 k="0"
