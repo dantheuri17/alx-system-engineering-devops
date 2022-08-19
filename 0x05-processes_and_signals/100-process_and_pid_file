@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Bash script displaying messages 
+
+echo $$ > /var/run/myscript.pid
+trap 'echo "I hate the kill command"; rm -rf /var/run/myscript.pid; exit' SIGTERM
+trap 'echo "Y U no love me?!"' SIGQUIT
+while :
+do 
+	echo "To infiity and beyond"
+	sleep 2
+done
