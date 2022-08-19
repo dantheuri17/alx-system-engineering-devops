@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# displays various things including infinity and beyond and I am invincible
+
+trap 'echo "I am invincible!!!"' SIGTERM
+while :
+do 
+	echo "To inifity and beyond"
+done
