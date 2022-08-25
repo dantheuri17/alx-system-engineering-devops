@@ -1,0 +1,4 @@
+#!usr/bin/env bash
+# displays listening ports, listenting sockets and the PID
+
+netstat -lp
